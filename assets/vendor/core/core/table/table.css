@@ -1,0 +1,32 @@
+.dataTables_wrapper .dataTables_processing {
+    background: url(../images/table-loading.gif) no-repeat !important;
+    background-size: contain !important;
+    border: none !important;
+    height: 40px !important;
+    padding: 0 !important;
+    text-indent: -9999px !important;
+    width: 40px !important;
+}
+
+div.dataTables_processing > div:last-child > div {
+    display: none !important;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    border-top: 5px solid #555;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: none;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
