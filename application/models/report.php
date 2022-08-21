@@ -4,6 +4,8 @@
 
 		protected $_tableSoatve = 'tbl_soatve';
 		protected $_tableTransaction = 'tbl_vetctransactionafterchange';
+		protected $_tableLoaixe = 'tbl_loaixe';
+		protected $_tableLoaive = 'tbl_loaive';
 		private $second_db;
 
 		public function __construct() {
@@ -13,5 +15,5 @@
 			parent::__construct();
 		}
 
-		
+
 	}
